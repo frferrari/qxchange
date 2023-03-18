@@ -1,0 +1,17 @@
+[package]
+name = "qxchange"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.10.0"
+image = "0.23"
+magic-crypt = "3.1.12"
+opencv = "0.78.0"
+qrcode-generator = "4.1.7"
+quircs = "0.10.1"
+
+[workspace]
+resolver = "2"
